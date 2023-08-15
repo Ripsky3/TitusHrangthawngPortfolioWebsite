@@ -1,0 +1,15 @@
+body {
+    color: red;
+}
+
+.container {
+    
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
