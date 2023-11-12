@@ -1,0 +1,21 @@
+#about {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    color: black;
+    padding: 100px 200px;
+}
+
+.about-title {
+    color: rgb(60, 108, 249);
+    font-weight: 700;
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.about-container-container-title {
+    font-weight: 700;
+}

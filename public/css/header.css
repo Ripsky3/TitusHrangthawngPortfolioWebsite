@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c1c1c;
+    color: white;
+    height: 10vh;
+    padding: 10px 200px;
+}
+
+.header-title {
+    color: white;
+    text-decoration: none;
+}
+
+.header-options {
+    display: flex;
+}
+
+.header-option {
+    list-style: none;
+}
+
+.header-option-sign-in {
+    text-decoration: none;
+    color: white;
+    padding: 0.3rem;
+    margin: 0 0.1rem;
+}
+
+.header-option-sign-up {
+    text-decoration: none;
+    color: white;
+    padding: 0.3rem;
+    margin: 0 0.1rem;
+}
+
+.header-list-link:hover {
+    border: 0.1rem solid white;
+}
+
+
+.home-link {
+    margin: 0 0.5rem;
+    padding: 1rem;
+    background-color: rgb(60, 108, 249);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-option {
+    padding: 0 10px;
+}
+
+.header-option a {
+    color: white;
+    text-decoration: none;
+}

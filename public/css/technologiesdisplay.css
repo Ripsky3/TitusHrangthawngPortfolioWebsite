@@ -1,0 +1,24 @@
+.technologies-display {
+    background-color: #1c1c1c;
+    padding: 100px 200px;
+}
+
+.technologies-display h1 {
+    text-align: center;
+}
+
+.technologies-display-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.technologies-display-container-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.technologies-display-container-container-title {
+    font-weight: 700;
+}

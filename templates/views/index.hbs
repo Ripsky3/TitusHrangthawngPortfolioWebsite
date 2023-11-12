@@ -6,24 +6,108 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Titus Technology Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-  </head>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/maindisplay.css">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/technologiesdisplay.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
   <body>
-    <div class="width:100% height:100%;">
-        {{>header}}
-        <div class="container">
-          <div class="row mt-3">
-            <div class="col bg-primary text-white p-3 m-0">
-              <h4>Recruiting Platform</h4>
+      <header class="header">
+        <h3><a class="header-title" href="">Portfolio</a></h3>
+          <ul class="header-options">
+            <li class="header-option"><a class="" href="/">Home</a></li>
+            <li class="header-option"><a class="" href="#about">About</a></li>
+            <li class="header-option"><a class="" href="#contact">Contact</a></li>
+        </ul>
+      </header>
+
+      <div class="main-display">
+        <div class="main-display-left">
+          <h2 class="main-display-h2-1">Hi I'm</h2>
+          <h1>Titus <span>Hrangthawng</span></h1>
+          <h2 class="main-display-h2-2" main-display>An Aspiring Web Developer</h2>
+          <a class="view-project-link" href="">View My Project</a>
+        </div>
+        <div class="main-display-right">
+          <img src="/images/profile.png" alt="" width="200px">
+        </div>
+      </div>
+
+      <div id="about">
+        <div class="about-left">
+          <img src="/images/profile.png" alt="" width="200px">
+          <img src="/images/profile.png" alt="" width="200px">
+        </div>
+        <div class="about-right">
+          <p class="about-title">About me</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, repellat
+             minima quidem rerum nemo natus alias nam dolore nisi exercitationem
+              facere consequatur saepe quas, earum atque. Dolor deleniti ex quidem.</p>
+          <div class="about-container">
+            <div class="about-container-container">
+              <p class="about-container-container-title" >Name</p>
+              <p>Titus Hrangthawng</p>
             </div>
-            <div class="col bg-primary text-white p-3 m-0">
-              <p>A Recruitment Web Application using Django And Sql</p>
-              <a class="text-white text-decoration-none" href="#">https</a>
+            <div class="about-container-container">
+              <p class="about-container-container-title" >Education</p>
+              <p>TCurrent Student At Kellogg Community College</p>
+            </div>
+            <div class="about-container-container">
+              <p class="about-container-container-title" >Email</p>
+              <p>Etitushrangthawng@gmail.com</p>
+            </div>
+            <div class="about-container-container">
+              <p class="about-container-container-title" >Employment</p>
+              <p>Open</p>
             </div>
           </div>
         </div>
-    </div>
+      </div>
+
+      <div class="technologies-display">
+        <h1>Technologies Used</h1>
+        <div class="technologies-display-container">
+            <div class="technologies-display-container-container">
+              <img src="/images/html.png" alt="" width="75px">
+              <p class="technologies-display-container-container-title">HTML</p>
+            </div>
+            <div class="technologies-display-container-container">
+              <img src="/images/css.png" alt="" width="75px">
+              <p class="technologies-display-container-container-title">CSS</p>
+            </div>
+            <div class="technologies-display-container-container">
+              <img src="/images/javascript.png" alt="" width="75px">
+              <p class="technologies-display-container-container-title">Javascript</p>
+            </div>
+            <div class="technologies-display-container-container">
+              <img src="/images/nodejs.png" alt="" width="75px">
+              <p class="technologies-display-container-container-title">Node JS</p>
+            </div>
+            <div class="technologies-display-container-container">
+              <img src="/images/mongodb.png" alt="" width="75px">
+              <p class="technologies-display-container-container-title">Mongo DB</p>
+            </div>
+            <div class="technologies-display-container-container">
+              <img src="/images/expressjs.png" alt="" width="75px">
+              <p class="technologies-display-container-container-title">Express JS</p>
+            </div>
+        </div>
+      </div>
+
+      <div id="contact">
+        <h1>Contact Information</h1>
+        <div class="contact-container">
+            <div class="contact-container-container">
+              <img src="/images/linkedin.png" alt="" width="75px">
+              <a href="https://www.linkedin.com/in/titus-hrangthawng-11996623b" target="_blank" class="contact-link linked-in-profile-link">LinkedIn Profile</a>
+            </div>
+        </div>
+        
+      </div>
+
 	<script src="app.js"></script>
   </body>
 </html>
